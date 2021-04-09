@@ -9,7 +9,7 @@ all:
 	    -M listings=true\
 	    --listings\
 	    --citeproc\
-	    --csl ${MARKDOWN_SCRIPT_DIR}/iso690-numeric-en.csl\
+	    --csl ${MARKDOWN_SCRIPT_DIR}/fachhochschule-vorarlberg-author-date.csl\
 	    --bibliography sources.bib\
 	    -V links-as-notes=true\
 	    -V geometry:margin=2cm\
