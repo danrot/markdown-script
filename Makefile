@@ -2,7 +2,7 @@ MARKDOWN_SCRIPT_DIR=.
 all:
 	pandoc\
 		--standalone\
-		--self-contained\
+		--embed-resources\
 		--toc\
 		--number-sections\
 		--filter pandoc-crossref\
